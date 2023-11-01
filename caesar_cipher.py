@@ -1,6 +1,7 @@
 import string
 
-alphabet = list(string.ascii_lowercase)
+# alphabet = list(string.ascii_lowercase)
+alphabet =list(string.ascii_letters)
 #alphabet.append(string.punctuation)
 
 alphabet.append(' ')
@@ -14,7 +15,7 @@ for punctuation in string.punctuation:
 
 
 key = 3
-text = 'zebras are white.'
+text = 'Zebras are black and white.'
 cipher_text = []
 
 print(text)
